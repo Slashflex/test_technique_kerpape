@@ -1,0 +1,14 @@
+{
+  "name": "test_technique_kerpape",
+  "version": "1.0.0",
+  "description": "test technique dev Kerpape",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Saoud",
+  "license": "ISC",
+  "dependencies": {
+    "tooltipster": "^4.2.8"
+  }
+}

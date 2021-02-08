@@ -1,0 +1,12 @@
+.fas.fa-times { color: red; }
+.fas.fa-check { color: forestgreen; }
+.table>:not(caption)>*>* {
+  padding: .9rem .5rem;
+}
+
+.db-ok {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}

@@ -2,10 +2,26 @@
 <hr style="background-color:orange">
 
 ## Solution soumise à l'entreprise et mise en place pour réplication
-Cloner ou télécharger le zip du dépôt
+Cloner ou télécharger le zip du dépôt (puis le dézipper)
 ```sh
-git clone
+git clone https://github.com/Slashflex/test_technique_kerpape.git
 ```
+Se positionner dans le dossier cloné (ou dézippé)
+```sh
+cd test_technique_kerpape
+```
+Une librairie permettant de prendre en charge l'affichage de Tooltips est à installer à l'aide de la commande suivante :
+```sh 
+npm i # ou npm install
+```
+Pour le bon fonctionnement du test, deux fichiers sont a modifier afin de prendre en compte le mot de passe et le nom de votre utilisateur MySQL.
+il s'agît des fichiers ```includes/functions.php (ligne 48)``` ainsi que ```classes/Database.php (ligne 6 et 7)```.<br /><br />
+Une fois cette étape réalisée, vous pouvez lancer un serveur PHP en local qui pointera sur le point d'entrée du programme ```index.php```, à l'aide de la commande suivante :
+```sh 
+php -S localhost:1234
+```
+Vous pouvez désormais accéder à ma réalisation en vous rendant sur votre navigateur et en entrant ```localhost:1234``` dans la barre d'URL.
+<hr style="background-color:orange">
 
 ## Objectif
 L'objectif de ce test est de vérifier quelques éléments essentiels du développement web.
