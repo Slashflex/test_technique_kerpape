@@ -70,6 +70,3 @@ Ressources
 - Tootlipster : http://calebjacob.github.io/tooltipster/
 Le script test_technique.sql pour initialiser la base de données
 <hr style="background-color:orange">
-
-  # test_technique_kerpape
-# test_technique_kerpape
