@@ -129,6 +129,8 @@ $(document).ready(function () {
   filterByFirstName('#search_firstname', 'processing/fetchFirstNames.php');
   filterByCity('#search_city', 'processing/fetchCities.php');
 
+  $('.db-ok').delay(3000).slideUp('slow');
+
   // Tooltipster library
   $('.tooltipster').tooltipster({
     animation: 'fade',

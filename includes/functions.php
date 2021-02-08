@@ -46,7 +46,7 @@ function compareDate($dateDebut, $dateFin): string
 function dbConnect(): PDO
 {
     // TODO Renseigner votre nom d'utilisateur et mot de passe utilisateur MySQL 1/2
-    $db = new PDO("mysql:host=localhost;dbname=test_technique", "NomUtilisateurMySQLAChanger", "MotDePasseAChanger");
+    $db = new PDO("mysql:host=localhost;dbname=test_technique", "NomUtilisateurMySQLAChanger", "MotDePasseAChanger.");
     //
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     return $db;

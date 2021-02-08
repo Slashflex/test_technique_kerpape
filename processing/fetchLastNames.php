@@ -13,7 +13,7 @@ $stmt = dbConnect()->prepare(
             ON t1.id_patient = t2.id_patient
             AND t1.date_deb = t2.maxDate
             WHERE nom LIKE CONCAT('%', :lastname, '%') 
-ORDER BY nom ASC"
+            ORDER BY nom ASC"
 );
 
 $stmt->execute(['lastname' => $text]);
